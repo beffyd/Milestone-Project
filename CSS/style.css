@@ -1,0 +1,165 @@
+/*--------------Navbar*/
+
+h1 {
+    font-family: 'Playfair Display', sans-serif;
+    
+}
+
+navbarNav {
+    position: right;
+}
+.navbar-expand{-sm|-md|-lg|-xl} 
+
+body {
+    background-color: #FFEDF4;
+}
+
+img {
+    width: 100%;  
+    margin: auto;
+    display: inline;
+    
+}
+
+#company-message {
+    height: 100%;
+    width: 75%;
+    text-align: center;
+    
+    
+   
+}
+
+
+@media screen and (min-width: 1200px) {
+    
+    #company-message {
+    padding-top: 150px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 100px;
+    display:inline;
+    }
+
+    img {
+        max-width: 100%;
+        padding-top: 150px;
+        
+    }
+
+}
+
+
+@media screen and (max-width: 360px) {
+    
+    #company-message {
+    font-size: smaller;
+    padding-top: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+    display: inline
+    
+    }
+
+    img {
+        padding-top:100px;
+    }
+}
+
+p {
+    font-family: 'Merriweather', sans-serif;
+    
+}
+
+h1 {
+    padding-left: 1em;
+}
+
+#socials {
+    text-align: center;
+}
+#socials a {
+    text-decoration: none;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+#navbarNav {
+    font-size: large;
+    float: right;
+ 
+    
+  }
+
+  #navbarNav li {
+    float: right;
+  }
+
+
+#socials i {
+    font-size: 40px;
+    color: #7839A6;
+}
+
+
+#slideshow {
+    text-align: center;
+    overflow: hidden;
+    height: 630px;
+    width: 728px;
+    margin: 0 auto;
+  }
+  
+  .slide-wrapper {
+    width: 2912px;
+    height: 900px;
+    -webkit-animation: slide 18s ease infinite;
+  }
+  
+  .slide {
+    float: left;
+    height: 750px;
+    width: 728px;
+  }
+  
+  .slide:nth-child(1) {
+    background: none;;
+  }
+  
+  .slide:nth-child(2) {
+    background: none;
+  }
+  
+  .slide:nth-child(3) {
+    background: none;
+  }
+  
+  .slide:nth-child(4) {
+    background: none;
+  }
+  
+  .slide-number {
+    color: #000;
+    text-align: center;
+    font-size: 10em;
+  }
+  
+  @-webkit-keyframes slide {
+    20% {margin-left: 0px;}
+    30% {margin-left: -728px;}
+    50% {margin-left: -728px;}
+    60% {margin-left: -1456px;}
+    70% {margin-left: -1456px;}
+    80% {margin-left: -2184px;}
+    90% {margin-left: -2184px;}
+  }
+  
+ 
+  
+  
