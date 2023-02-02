@@ -70,9 +70,55 @@ font-family: "Roboto", sans-serif;
 }
 
 
+#wedpackage-one{
+  display: inline-block;
+  float: left;
+  padding-left: 8em;
+}
+
+#wedpackage-two {
+ display: inline-block;
+ padding-bottom: 2em;
+ padding-left: 4em;
+ text-align: center;
+}
+
+#wedpackage-three {
+ display: inline-block;
+ float: right;
+ padding-right: 8em;
+
+}
+
+#wedpackage-four{
+  display: inline-block;
+  float: left;
+  padding-left: 8em;
+}
+
+#wedpackage-five {
+ display: inline-block;
+ padding-bottom: 0;
+ padding-left: 8em;
+ padding-right: 8em;
+ text-align: center;
+}
+
+#wedpackage-six {
+ display: inline-block;
+ float: right;
+ padding-right: 8em;
+padding-bottom: ;
+}
+
+#wedding_form {
+  text-align: center;
+}
+
 #birthday_form {
  text-align: center;
 }
+
 
 fieldset {
   border: outset 2px rgb(255, 92, 255); 
