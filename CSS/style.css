@@ -22,18 +22,79 @@ img {
   
 }
 
+/*--------------Packages------------*/  
+
+label {
+  font-family: 'Playfair Display', sans-serif;
+  color:#08030c; 
+  padding-left: 1em;
+  padding-right: 1em;
+  font-size: 30px; 
+
+}
+
+
 .package {
-height: 30%;
-width: 30%; 
-padding: ;
+max-height: 330px;
+max-width: 420px; 
+padding: 10px;
 text-align:;
 margin: auto;
+border-radius: 12%;
+
+
+}
+
+#package-one {
+   display: inline-block;
+   float: left;
+   padding-left: 8em;
+}
+
+#package-two {
+  display: inline-block;
+  padding-bottom: 2em;
+  text-align: center;
+}
+
+#package-three {
+  display: inline-block;
+  float: right;
+  padding-right: 8em;
 
 }
 
 #packages {
 border: none;
 font-family: "Roboto", sans-serif;
+}
+
+
+#birthday_form {
+ text-align: center;
+}
+
+fieldset {
+  border: outset 2px rgb(255, 92, 255); 
+  width: 300px;
+  display: inline;
+  padding: 0;
+
+}
+
+fieldset p {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 550;
+  
+}
+
+input[type=submit] {
+   color:#7839A6; 
+   font-style: italic; 
+}
+
+input[type=submit]:hover {
+  color:rgb(255, 92, 255);
 }
 
 /*--------------Media Queries------------*/  
@@ -93,10 +154,10 @@ padding-bottom: 10px;
 
 font-family: 'Merriweather', sans-serif;
   text-align: center;
-  border: 2px solid #7839A6;
+  border: 2px outset #;
   width: 500px;
   padding: 10px;
-
+  border: outset 2px rgb(255, 92, 255);
   vertical-align: middle;
 
 }
