@@ -23,7 +23,7 @@ bootstrap navbar
 
 font awesome icons (socials and contact)
 
-unsplash for free images
+unsplash for free imagesgit 
 
 htmlcolorcodes.com for hex and rgb colour values
 
