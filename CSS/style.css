@@ -172,7 +172,7 @@ input[type=submit]:hover {
 @media screen and (min-width: 1200px) {
   
   .navbar-expand
-  
+
   #company-history-section {
   padding-top: 150px;
   padding-left: 100px;
@@ -189,18 +189,14 @@ input[type=submit]:hover {
 
  
 }
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 390px) {
   
 #company-history-section {
 font-size: smaller;
 padding-top: 20px;
 padding-left: 30px;
 padding-right: 30px;
-padding-bottom: 10px;
-
-
-
-}
+padding-bottom: 10px;}
 
 
 #slideshow {
@@ -208,13 +204,46 @@ padding-bottom: 10px;
 }
 
  
-  #border {
+#border {
    margin: auto;
    width: 100%;
 }
 
+/*---------------------------BDAYPACKAGES------------------*/
+
+.package {
+    overflow: scroll;
 }
 
+#package-one label{
+   font-size: 1em;
+    
+}
+
+#package-two label{
+  font-size: 1em;
+
+}
+
+#package-three label{
+  font-size: 1em;
+  
+}
+
+#package-one {
+   display: none;
+}
+
+#package-two {
+  display: none;
+}
+
+#package-three {
+  display: none;
+}
+
+      
+}
 
 
 /*--------------text and headers------------*/  
@@ -325,6 +354,5 @@ h1 {
   80% {margin-left: -2184px;}
   90% {margin-left: -2184px;}
 }
-
 
 
