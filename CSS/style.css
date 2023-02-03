@@ -9,7 +9,8 @@ h1, h2, h3, h4 {
 navbarNav {
   position: right;
 }
-.navbar-expand{-sm,-md,-lg,-xl} 
+
+
 
 body {
   background-color: #FFEDF4;
@@ -29,40 +30,45 @@ label {
   color:#08030c; 
   padding-left: 1em;
   padding-right: 1em;
-  font-size: 30px; 
+  font-size: 2em; 
+  text-align: center;
 
 }
 
+.right-package {
+   text-align: center;
+   padding-right: 5em;
+}
 
 .package {
 max-height: 330px;
 max-width: 420px; 
 padding: 10px;
-text-align:;
-margin: auto;
 border-radius: 12%;
 
 
 }
 
 #package-one {
-   display: inline-block;
-   float: left;
-   padding-left: 8em;
+  display: inline-block;
+  padding-right: 22em;
+  
 }
 
 #package-two {
   display: inline-block;
-  padding-bottom: 2em;
   text-align: center;
+  padding-right: 16em;
 }
 
 #package-three {
   display: inline-block;
-  float: right;
-  padding-right: 8em;
-
+  padding-right: 2em;
+  padding-left: 4em;
+  
 }
+
+
 
 #packages {
 border: none;
@@ -72,32 +78,32 @@ font-family: "Roboto", sans-serif;
 
 #wedpackage-one{
   display: inline-block;
-  float: left;
   padding-left: 8em;
+  padding-right: 8em;
 }
 
 #wedpackage-two {
- display: inline-block;
- padding-bottom: 2em;
- padding-left: 4em;
+  display: inline-block;
+  padding-left: 8em;
+  padding-right: 8em;
  text-align: center;
 }
 
 #wedpackage-three {
- display: inline-block;
- float: right;
- padding-right: 8em;
+  display: inline-block;
+  padding-right: 8em;
+  padding-left: 8em;
 
 }
 
 #wedpackage-four{
   display: inline-block;
-  float: left;
+  padding-right: 8em;
   padding-left: 8em;
 }
 
 #wedpackage-five {
- display: inline-block;
+  display: inline-block;
  padding-bottom: 0;
  padding-left: 8em;
  padding-right: 8em;
@@ -106,9 +112,9 @@ font-family: "Roboto", sans-serif;
 
 #wedpackage-six {
  display: inline-block;
- float: right;
  padding-right: 8em;
-padding-bottom: ;
+ padding-left: 8em;
+
 }
 
 #wedding_form {
@@ -143,11 +149,29 @@ input[type=submit]:hover {
   color:rgb(255, 92, 255);
 }
 
+/*--------------Contact Page------------*/  
+
+#map {
+  text-align: center;
+}
+
+#contact {
+ 
+  text-align: center;
+  padding-top: 1em;
+}
+
+#contact i {
+  color: #7839A6;
+}
+
 /*--------------Media Queries------------*/  
 
 
 
 @media screen and (min-width: 1200px) {
+  
+  .navbar-expand
   
   #company-history-section {
   padding-top: 150px;
@@ -187,20 +211,22 @@ padding-bottom: 10px;
   #border {
    margin: auto;
    width: 100%;
+}
 
-  }
+}
+
+
 
 /*--------------text and headers------------*/  
 
 
-}
 
 
 #company-history {
 
 font-family: 'Merriweather', sans-serif;
   text-align: center;
-  border: 2px outset #;
+  border: 2px outset;
   width: 500px;
   padding: 10px;
   border: outset 2px rgb(255, 92, 255);
@@ -259,7 +285,7 @@ h1 {
 .slide-wrapper {
   width: 2912px;
   height: 900px;
-  -webkit-animation: slide 18s ease infinite;
+  animation: slide 18s ease infinite;
 }
 
 .slide {
@@ -290,7 +316,7 @@ h1 {
   font-size: 10em;
 }
 
-@-webkit-keyframes slide {
+@keyframes slide {
   20% {margin-left: 0px;}
   30% {margin-left: -728px;}
   50% {margin-left: -728px;}
