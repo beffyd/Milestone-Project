@@ -33,6 +33,14 @@ getbootstrap.com documentation on display:flex
 
 googles embedded iframe html used for the map on contact page
 
+Screenshot of desktop and mobile view (all pages)
+
+
+Bugs fixed:
+
+Navbar kept aligning left next to logo. fixed by adding "justify-content-end" attribute to navbar.
+
+Slideshow syntax error, removed "-webkit-" prefix from animation and keyframes CSS.
 
 
 
