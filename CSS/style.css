@@ -205,7 +205,6 @@ input[type=submit]:hover {
    #package-three-m {
      display:none;
       
-   
    }
 
    #wedpackage-one-m {
@@ -378,6 +377,8 @@ iframe {
  
 }
 
+
+
 }
 
 
@@ -459,7 +460,7 @@ h1 {
 }
 
 
-/*---------------slideshow-------------*/
+/*---------------SLIDE SHOW CODE WRITTEN BY GRADAR ON CODEPEN.IO-------------*/
 
 #slideshow {
   text-align: center;
@@ -513,4 +514,52 @@ h1 {
   90% {margin-left: -2184px;}
 }
 
-/*-----------------------MODAL------------------*/
+
+/*---------------SLIDE SHOW CODE WRITTEN BY GRADAR ON CODEPEN.IO-------------*/
+
+@media screen and (max-width: 991px) {
+
+
+
+  .bg-dark {
+      --bs-bg-opacity: 0;
+  }
+
+  .nav-link,
+  .navbar-toggler {
+      background-color: #212529;
+      width: 70px;
+      float:right;
+  }
+
+  .nav-link{
+    font-size: smaller;
+    text-align: center;
+  }
+  .navbar-toggler {
+      margin: 0;
+      border-radius: 0;
+      float: right;
+  }
+
+  .navbar-brand {
+      background-color: #212529;
+      width: 100%;
+      margin: 0;
+
+      
+  }
+  
+  h1 {
+      padding-right: 1em;
+  }
+
+  #nav {
+    padding: 0;
+    justify-content: end;
+}
+
+
+
+
+}
