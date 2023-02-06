@@ -1,7 +1,7 @@
 # Rose's Flower Shop
 
 
-## what the project does and its value to users:
+## What the project does and its value to users:
 
 The project is intended to allow customers of Rose's Flower Shop to reserve arrangements of flowers that they want for events. This allows the workers at Rose's Flower Shop to see if the flowers are in season, when they can be ordered and when the package can be finished for the customer. 
 
@@ -20,10 +20,15 @@ Thanks to Tom from MySpace for encouraging me write my first piece of code.
 ## Technologies used:
 
 HTML AND CSS3
+
 GITPOD
+
 GITHUB
+
 BOOTSTRAP 
+
 FONTAWESOME 
+
 GOOGLE FONTS 
 
 
@@ -45,12 +50,13 @@ googles embedded iframe html used for the map on contact page
 
 
 
-
 ## Screenshot of desktop and mobile view:
 
 
 
 ## Code tested on W3C:
+
+all html and css passed W3C validator tests on 06/02/2023
 
 
 
@@ -60,8 +66,11 @@ Navbar kept aligning left next to logo. fixed by adding "justify-content-end" at
 
 Slideshow syntax error, removed "-webkit-" prefix from animation and keyframes CSS.
 
-Version Control:  Git & GitHub
+Version Control:  Git & GitHub 
 
+Deployment:
+
+Project was deployed on Gitpages and is viewable at: 
 
 
 
