@@ -4,24 +4,20 @@ h1,
 h2,
 h3,
 h4 {
-  font-family: 'Playfair Display', sans-serif;
+  font-family: "Playfair Display", sans-serif;
   text-align: center;
-
 }
-
-
 
 /*--------------General styling*/
 
 body {
-  background-color: #FFEDF4;
+  background-color: #ffedf4;
 }
 
 img {
   width: 100%;
   margin: auto;
   display: inline;
-
 }
 
 h3 {
@@ -35,23 +31,93 @@ h2 {
   padding-bottom: 1em;
 }
 
-
 #socials {
   margin: auto;
   padding: 2em;
 }
 
+/* ------------------ */
+.d-flex {
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
 
+.item {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-container {
+  justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  display: flex;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid rgb(168, 39, 183);
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.d-flex {
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.form-container {
+  justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  display: flex;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid rgb(168, 39, 183);
+  border-radius: 5px;
+  padding: 20px;
+}
+
+button {
+  margin-top: 20px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #f0a5d8;
+  font-weight: bolder;
+}
+
+.name,
+.email,
+.number {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.labelSmall {
+  font-size: 20px;
+  font-weight: bold;
+  padding: 0;
+}
+
+input {
+  border-radius: 5px;
+}
+
+Add Comment
 /*--------------Packages------------*/
 
 label {
-  font-family: 'Playfair Display', sans-serif;
+  font-family: "Playfair Display", sans-serif;
   color: #08030c;
   padding-left: 1em;
   padding-right: 1em;
   font-size: 2em;
   text-align: center;
-
 }
 
 .right-package {
@@ -64,77 +130,52 @@ label {
   max-width: 420px;
   padding: 10px;
   border-radius: 12%;
-
-
 }
 
 #package-one {
   display: inline-block;
-  padding-right: 22em;
-
 }
 
 #package-two {
   display: inline-block;
   text-align: center;
-  padding-right: 16em;
-  padding-bottom: 2em;
 }
 
 #package-three {
   display: inline-block;
-  padding-right: 2em;
-  padding-left: 4em;
-
 }
-
-
 
 #packages {
   border: none;
   font-family: "Roboto", sans-serif;
 }
 
-
 #wedpackage-one {
   display: inline-block;
-  padding-left: 3em;
-  padding-right: 8em;
 }
 
 #wedpackage-two {
   display: inline-block;
-  padding-left: 6em;
-  padding-right: 6em;
+
   text-align: center;
 }
 
 #wedpackage-three {
   display: inline-block;
-  padding-left: 13em;
-  padding-right: 6em;
-
 }
 
 #wedpackage-four {
   display: inline-block;
-  padding-right: 6em;
-  padding-left: 3em;
 }
 
 #wedpackage-five {
   display: inline-block;
-  padding-bottom: 3em;
-  padding-left: 6em;
-  padding-right: 6em;
+
   text-align: center;
 }
 
 #wedpackage-six {
   display: inline-block;
-  padding-right: 6em;
-  padding-left: 13em;
-
 }
 
 #wedding_form {
@@ -145,27 +186,24 @@ label {
   text-align: center;
 }
 
-
 fieldset {
-  border: outset 2px #CFAEFF;
+  border: outset 2px #cfaeff;
   width: 300px;
   display: inline;
   padding: 0;
-
 }
 
 fieldset p {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 550;
-
 }
 
-input[type=submit] {
-  color: #7839A6;
+input[type="submit"] {
+  color: #7839a6;
   font-style: italic;
 }
 
-input[type=submit]:hover {
+input[type="submit"]:hover {
   color: rgb(255, 92, 255);
 }
 
@@ -176,50 +214,39 @@ input[type=submit]:hover {
 }
 
 #contact {
-
   text-align: center;
   padding-top: 1em;
 }
 
 #contact i {
-  color: #7839A6;
+  color: #7839a6;
 }
 
 /*--------------Media Queries------------*/
 
-
-
 @media screen and (min-width: 1200px) {
-
   .navbar-expand #company-history-section {
     padding-top: 150px;
     padding-left: 100px;
     padding-right: 100px;
     padding-bottom: 100px;
-
   }
 
   img {
     max-width: 100%;
     padding-top: 150px;
-
   }
-
 
   #package-one-m {
     display: none;
-
   }
 
   #package-two-m {
     display: none;
-
-
   }
 
   #package-three-m {
     display: none;
-
   }
 
   #wedpackage-one-m {
@@ -249,15 +276,9 @@ input[type=submit]:hover {
   .index-page-image-m {
     display: none;
   }
-
-
 }
 
-
 @media screen and (max-width: 991px) {
-
-
-
   .bg-dark {
     --bs-bg-opacity: 0;
   }
@@ -284,8 +305,6 @@ input[type=submit]:hover {
     background-color: #212529;
     width: 100%;
     margin: 0;
-
-
   }
 
   h1 {
@@ -296,164 +315,143 @@ input[type=submit]:hover {
     padding: 0;
     justify-content: end;
   }
-
-
-
-
 }
 
-
-@media screen and (max-width: 390px) {
-
-  #company-history-section {
-    font-size: smaller;
-    padding-top: 20px;
-    padding-left: 30px;
-    padding-right: 30px;
-    padding-bottom: 10px;
-  }
-
-  #slideshow {
-    display: none;
-  }
-
-  .package {
-    padding: 0.1em;
-  }
-
-  #border {
-    margin: auto;
-    width: 100%;
-  }
-
-  .nav-item {
-    text-align: end;
-
-  }
-
-
-  #package-one {
-    display: none;
-
-  }
-
-  #package-two {
-    display: none;
-
-
-  }
-
-  #package-three {
-    display: none;
-
-  }
-
-  #package-one-m {
-    font-size: 0.5em;
-    float: left;
-
-  }
-
-  #package-two-m {
-    font-size: 0.5em;
-    float: left;
-    padding-left: 8em;
-    padding-bottom: 3em;
-  }
-
-  #package-three-m {
-    font-size: 0.5em;
-    float: right;
-    padding-right: 2em;
-  }
-
-  #wedpackage-one {
-    display: none;
-  }
-
-  #wedpackage-two {
-    display: none;
-  }
-
-  #wedpackage-three {
-    display: none;
-  }
-
-  #wedpackage-four {
-    display: none;
-  }
-
-  #wedpackage-five {
-    display: none;
-  }
-
-  #wedpackage-six {
-    display: none;
-  }
-
-  #wedpackage-one-m {
-    font-size: 0.5em;
-    float: left;
-
-  }
-
-  #wedpackage-two-m {
-    font-size: 0.5em;
-    float: left;
-    padding-left: 7em;
-  }
-
-  #wedpackage-three-m {
-    font-size: 0.5em;
-    float: right;
-    padding-right: 2em;
-  }
-
-  #wedpackage-four-m {
-    font-size: 0.5em;
-    float: left;
-
-  }
-
-  #wedpackage-five-m {
-    font-size: 0.5em;
-    float: left;
-    padding-left: 7em;
-    padding-bottom: 3em;
-  }
-
-  #wedpackage-six-m {
-    font-size: 0.5em;
-    float: right;
-    padding-right: 2em;
-  }
-
-  iframe {
-    max-width: 85%;
-  }
-
-  #company-history {
-    max-width: 75%;
-  }
-
-  .index-page-image-m {
-    max-width: 100%;
-    padding-top: 6em;
-    padding-left: 3em;
-    padding-right: 3em;
-
-  }
-
-  .navbar-toggler {
-    position: absolute;
-    top: 10px;
-
-  }
-
-}
-
-
-
+/* @media screen and (max-width: 390px) {
+	#company-history-section {
+		font-size: smaller;
+		padding-top: 20px;
+		padding-left: 30px;
+		padding-right: 30px;
+		padding-bottom: 10px;
+	}
+ 
+	#slideshow {
+		display: none;
+	}
+ 
+	.package {
+		padding: 0.1em;
+	}
+ 
+	#border {
+		margin: auto;
+		width: 100%;
+	}
+ 
+	.nav-item {
+		text-align: end;
+	}
+ 
+	#package-one {
+		display: none;
+	}
+ 
+	#package-two {
+		display: none;
+	}
+ 
+	#package-three {
+		display: none;
+	}
+ 
+	#package-one-m {
+		font-size: 0.5em;
+		float: left;
+	}
+ 
+	#package-two-m {
+		font-size: 0.5em;
+		float: left;
+		padding-left: 8em;
+		padding-bottom: 3em;
+	}
+ 
+	#package-three-m {
+		font-size: 0.5em;
+		float: right;
+		padding-right: 2em;
+	}
+ 
+	#wedpackage-one {
+		display: none;
+	}
+ 
+	#wedpackage-two {
+		display: none;
+	}
+ 
+	#wedpackage-three {
+		display: none;
+	}
+ 
+	#wedpackage-four {
+		display: none;
+	}
+ 
+	#wedpackage-five {
+		display: none;
+	}
+ 
+	#wedpackage-six {
+		display: none;
+	}
+ 
+	#wedpackage-one-m {
+		font-size: 0.5em;
+		float: left;
+	}
+ 
+	#wedpackage-two-m {
+		font-size: 0.5em;
+		float: left;
+		padding-left: 7em;
+	}
+ 
+	#wedpackage-three-m {
+		font-size: 0.5em;
+		float: right;
+		padding-right: 2em;
+	}
+ 
+	#wedpackage-four-m {
+		font-size: 0.5em;
+		float: left;
+	}
+ 
+	#wedpackage-five-m {
+		font-size: 0.5em;
+		float: left;
+		padding-left: 7em;
+		padding-bottom: 3em;
+	}
+ 
+	#wedpackage-six-m {
+		font-size: 0.5em;
+		float: right;
+		padding-right: 2em;
+	}
+ 
+	iframe {
+		max-width: 85%;
+	}
+ 
+	#company-history {
+		max-width: 75%;
+	}
+ 
+	.index-page-image-m {
+		max-width: 100%;
+		padding-top: 6em;
+		padding-left: 3em;
+		padding-right: 3em;
+	}
+ 
+	.navbar-toggler {
+		position: absolute;
+		top: 10px;
+	}
+} */
 
 /*---------------------------BDAYPACKAGES------------------*/
 
@@ -463,57 +461,46 @@ input[type=submit]:hover {
 
 #package-one label {
   font-size: 2em;
-
 }
 
 #package-two label {
   font-size: 2em;
-
 }
 
 #package-three label {
   font-size: 2em;
-
 }
 
+#packages {
+  text-align: center;
+  font-size: 1em;
+}
 
 /*--------------text and headers------------*/
 
-
-
-
 #company-history {
-
-  font-family: 'Merriweather', sans-serif;
+  font-family: "Merriweather", sans-serif;
   text-align: center;
   border: 2px outset;
   width: 500px;
   padding: 10px;
-  border: solid 2px #90FFD2;
+  border: solid 2px #90ffd2;
   vertical-align: middle;
-
 }
 
 p {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
-
 
 h1 {
   padding-left: 1em;
 }
-
-
-
-
 
 /*--------------navbar and footer------------*/
 
 #navbarNav {
   font-size: large;
   float: right;
-
-
 }
 
 #navbarNav li {
@@ -530,9 +517,8 @@ h1 {
 
 #socials i {
   font-size: 40px;
-  color: #C7A0FF;
+  color: #c7a0ff;
 }
-
 
 /*---------------SLIDE SHOW CODE WRITTEN BY GRADAR ON CODEPEN.IO-------------*/
 
