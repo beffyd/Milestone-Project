@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,300&display=swap');
+
 /*--------------Navbar*/
 
 h1,
@@ -20,6 +22,10 @@ img {
   display: inline;
 }
 
+.index-page-image-m {
+  display: none;
+}
+
 h3 {
   margin: auto;
   padding: 30px;
@@ -29,6 +35,15 @@ h2 {
   margin: auto;
   padding-top: 3em;
   padding-bottom: 1em;
+}
+
+label {
+  font-family: "Playfair Display", sans-serif;
+  color: #08030c;
+  padding-left: 1em;
+  padding-right: 1em;
+  font-size: 2em;
+  text-align: center;
 }
 
 #socials {
@@ -54,13 +69,6 @@ h2 {
   display: flex;
 }
 
-form {
-  display: flex;
-  flex-direction: column;
-  border: 1px solid rgb(168, 39, 183);
-  border-radius: 5px;
-  padding: 20px;
-}
 
 .d-flex {
   flex-wrap: wrap;
@@ -74,12 +82,14 @@ form {
   display: flex;
 }
 
-form {
+
+fieldset {
   display: flex;
   flex-direction: column;
-  border: 1px solid rgb(168, 39, 183);
+  border: 1px outset rgb(168, 39, 183);
   border-radius: 5px;
   padding: 20px;
+
 }
 
 button {
@@ -87,7 +97,15 @@ button {
   padding: 10px;
   border-radius: 10px;
   background-color: #f0a5d8;
-  font-weight: bolder;
+  padding-left: 10px;
+
+
+}
+
+#center-button {
+  padding-left: 4em;
+  padding-bottom: 1em;
+
 }
 
 .name,
@@ -150,41 +168,7 @@ label {
   font-family: "Roboto", sans-serif;
 }
 
-#wedpackage-one {
-  display: inline-block;
-}
 
-#wedpackage-two {
-  display: inline-block;
-
-  text-align: center;
-}
-
-#wedpackage-three {
-  display: inline-block;
-}
-
-#wedpackage-four {
-  display: inline-block;
-}
-
-#wedpackage-five {
-  display: inline-block;
-
-  text-align: center;
-}
-
-#wedpackage-six {
-  display: inline-block;
-}
-
-#wedding_form {
-  text-align: center;
-}
-
-#birthday_form {
-  text-align: center;
-}
 
 fieldset {
   border: outset 2px #cfaeff;
@@ -198,12 +182,12 @@ fieldset p {
   font-weight: 550;
 }
 
-input[type="submit"] {
+button {
   color: #7839a6;
   font-style: italic;
 }
 
-input[type="submit"]:hover {
+button:hover {
   color: rgb(255, 92, 255);
 }
 
@@ -241,41 +225,9 @@ input[type="submit"]:hover {
     display: none;
   }
 
-  #package-two-m {
-    display: none;
-  }
 
-  #package-three-m {
-    display: none;
-  }
 
-  #wedpackage-one-m {
-    display: none;
-  }
 
-  #wedpackage-two-m {
-    display: none;
-  }
-
-  #wedpackage-three-m {
-    display: none;
-  }
-
-  #wedpackage-four-m {
-    display: none;
-  }
-
-  #wedpackage-five-m {
-    display: none;
-  }
-
-  #wedpackage-six-m {
-    display: none;
-  }
-
-  .index-page-image-m {
-    display: none;
-  }
 }
 
 @media screen and (max-width: 991px) {
@@ -317,141 +269,39 @@ input[type="submit"]:hover {
   }
 }
 
-/* @media screen and (max-width: 390px) {
-	#company-history-section {
-		font-size: smaller;
-		padding-top: 20px;
-		padding-left: 30px;
-		padding-right: 30px;
-		padding-bottom: 10px;
-	}
- 
-	#slideshow {
-		display: none;
-	}
- 
-	.package {
-		padding: 0.1em;
-	}
- 
-	#border {
-		margin: auto;
-		width: 100%;
-	}
- 
-	.nav-item {
-		text-align: end;
-	}
- 
-	#package-one {
-		display: none;
-	}
- 
-	#package-two {
-		display: none;
-	}
- 
-	#package-three {
-		display: none;
-	}
- 
-	#package-one-m {
-		font-size: 0.5em;
-		float: left;
-	}
- 
-	#package-two-m {
-		font-size: 0.5em;
-		float: left;
-		padding-left: 8em;
-		padding-bottom: 3em;
-	}
- 
-	#package-three-m {
-		font-size: 0.5em;
-		float: right;
-		padding-right: 2em;
-	}
- 
-	#wedpackage-one {
-		display: none;
-	}
- 
-	#wedpackage-two {
-		display: none;
-	}
- 
-	#wedpackage-three {
-		display: none;
-	}
- 
-	#wedpackage-four {
-		display: none;
-	}
- 
-	#wedpackage-five {
-		display: none;
-	}
- 
-	#wedpackage-six {
-		display: none;
-	}
- 
-	#wedpackage-one-m {
-		font-size: 0.5em;
-		float: left;
-	}
- 
-	#wedpackage-two-m {
-		font-size: 0.5em;
-		float: left;
-		padding-left: 7em;
-	}
- 
-	#wedpackage-three-m {
-		font-size: 0.5em;
-		float: right;
-		padding-right: 2em;
-	}
- 
-	#wedpackage-four-m {
-		font-size: 0.5em;
-		float: left;
-	}
- 
-	#wedpackage-five-m {
-		font-size: 0.5em;
-		float: left;
-		padding-left: 7em;
-		padding-bottom: 3em;
-	}
- 
-	#wedpackage-six-m {
-		font-size: 0.5em;
-		float: right;
-		padding-right: 2em;
-	}
- 
-	iframe {
-		max-width: 85%;
-	}
- 
-	#company-history {
-		max-width: 75%;
-	}
- 
-	.index-page-image-m {
-		max-width: 100%;
-		padding-top: 6em;
-		padding-left: 3em;
-		padding-right: 3em;
-	}
- 
-	.navbar-toggler {
-		position: absolute;
-		top: 10px;
-	}
-} */
+#row1 {
+  margin-bottom: 100px;
+}
+
+
+@media screen and (max-width: 508px) {
+  #slideshow {
+    display: none;
+  }
+
+  .index-page-image-m {
+    display: block;
+    max-width: 85%;
+    padding-top: 5em;
+  }
+
+  iframe {
+    max-width: 75%;
+  }
+
+  .navbar-toggler {
+    position: absolute;
+    top: 5px;
+
+  }
+
+  label {
+    font-size: 100%;
+
+
+  }
+}
+
 
 /*---------------------------BDAYPACKAGES------------------*/
 

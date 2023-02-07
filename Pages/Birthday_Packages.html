@@ -54,16 +54,18 @@
       <div class="item">
 
         <img class="package" src="/Milestone-Project/Images/birthday1.jpg" alt="red and white roses" />
-        <div id="packages">
-          <input type="radio" id="package1" name="birthday_packages" value="Package1" /><label for="package1">Package 1
-            £69.99</label>
-        </div>
+
+        <form action="#" method="post">
+          <div id="packages">
+            <input type="radio" id="package1" name="birthday_packages" value="Package1" /><label for="package1">Package
+              1 £69.99</label>
+          </div>
 
       </div>
 
       <div class="item">
 
-        <img class="package" src="/Milestone-Project/Images/birthday2.jpg" alt="red and white roses" />
+        <img class="package" src="/Milestone-Project/Images/birthday2.jpg" alt="pink white and green flowers" />
         <div id="packages">
           <input type="radio" id="package1" name="birthday_packages" value="Package2" /><label for="package2">Package 2
             £84.99</label>
@@ -72,7 +74,8 @@
       </div>
       <div class="item">
 
-        <img class="package" src="/Milestone-Project/Images/birthday3.jpg" alt="red and white roses" />
+        <img class="package" src="/Milestone-Project/Images/birthday3.jpg" alt="orang red and white flowers">
+
 
         <div id="packages">
           <input type="radio" id="package3" name="birthday_packages" value="Package3" /><label for="package3">Package 3
@@ -82,7 +85,7 @@
     </div>
   </section>
   <div class="form-container">
-    <form action="get">
+    <fieldset>
       <div class="name">
         <label class="labelSmall" for="name">Name:</label>
         <input type="text" name="name" />
@@ -96,10 +99,13 @@
       <div class="number">
         <label class="labelSmall" for="number">Number:</label>
         <input type="text" name="number" />
+
       </div>
 
-      <button>Reserve my package!</button>
-    </form>
+      <div id="center-button">
+        <button>Reserve my package!</button></div>
+      </form>
+    </fieldset>
   </div>
 
   <footer>
