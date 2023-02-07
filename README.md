@@ -73,6 +73,7 @@ Git & GitHub
 
 Project was deployed on Gitpages and is viewable at: 
 
+https://beffyd.github.io/Milestone-Project/
 
 
 
