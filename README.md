@@ -52,12 +52,12 @@ googles embedded iframe html used for the map on contact page
 
 ## Screenshot of desktop and mobile view:
 
-
+Screen shots of the project can be viewed at: https://imgur.com/a/cg7irRi
+ 
 
 ## Code tested on W3C:
 
 all html and css passed W3C validator tests on 06/02/2023
-
 
 
 ## Bugs fixed:
@@ -66,11 +66,14 @@ Navbar kept aligning left next to logo. fixed by adding "justify-content-end" at
 
 Slideshow syntax error, removed "-webkit-" prefix from animation and keyframes CSS.
 
-Version Control:  Git & GitHub 
+## Version Control: 
+Git & GitHub 
 
-Deployment:
+## Deployment:
 
 Project was deployed on Gitpages and is viewable at: 
+
+
 
 
 
