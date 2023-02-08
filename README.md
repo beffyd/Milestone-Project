@@ -72,7 +72,11 @@ The main colours used are light pink, purple and black.
 
 ## Code tested on W3C:
 
-all html and css passed W3C validator tests on 06/02/2023
+results for all pages:
+
+https://imgur.com/a/ZW2LPfn
+
+please note, all checks passed aside from  2errors on birthday_packages page and weddings packages page "end div tag seen but there were open elements and "unclosed form element however could absolutely not remove without breaking the page.
 
 
 ## Bugs fixed:

@@ -53,11 +53,12 @@
     <div class="d-flex align-items-center">
       <div class="item">
 
-        <img class="package" src="/Milestone-Project/Images/birthday1.jpg" alt="red and white roses" />
+        <img class="package" src="/Milestone-Project/Images/birthday1.jpg" alt="red and white roses">
 
         <form action="#" method="post">
-          <div id="packages">
-            <input type="radio" id="package1" name="birthday_packages" value="Package1" /><label for="package1">Package
+          <div id="package1">
+            <input type="radio" id="package-one" name="birthday_packages" value="Package1"><label
+              for="package-one">Package
               1 £69.99</label>
           </div>
 
@@ -65,9 +66,10 @@
 
       <div class="item">
 
-        <img class="package" src="/Milestone-Project/Images/birthday2.jpg" alt="pink white and green flowers" />
-        <div id="packages">
-          <input type="radio" id="package1" name="birthday_packages" value="Package2" /><label for="package2">Package 2
+        <img class="package" src="/Milestone-Project/Images/birthday2.jpg" alt="pink white and green flowers">
+        <div id="package2">
+          <input type="radio" id="package-two" name="birthday_packages" value="Package2"><label
+            for="package-two">Package 2
             £84.99</label>
         </div>
 
@@ -77,8 +79,9 @@
         <img class="package" src="/Milestone-Project/Images/birthday3.jpg" alt="orang red and white flowers">
 
 
-        <div id="packages">
-          <input type="radio" id="package1" name="birthday_packages" value="Package3" /><label for="package3">Package 3
+        <div id="package3">
+          <input type="radio" id="package-three" name="birthday_packages" value="Package3"><label
+            for="package-three">Package 3
             £104.99</label>
         </div>
       </div>
@@ -86,25 +89,25 @@
   </section>
   <div class="form-container">
     <fieldset>
-      <div class="name">
-        <label class="labelSmall" for="name">Name:</label>
-        <input type="text" name="name" />
+      <div class="name" id="customer-name">
+        <label class="labelSmall">Name:</label>
+        <input type="text" name="name">
       </div>
 
-      <div class="email">
-        <label class="labelSmall" for="name">Email Address:</label>
-        <input type="text" name="email" />
+      <div class="email" id="customer-email">
+        <label class="labelSmall">Email Address:</label>
+        <input type="text" name="email">
       </div>
 
-      <div class="number">
-        <label class="labelSmall" for="number">Number:</label>
-        <input type="text" name="number" />
+      <div class="number" id="customer-number">
+        <label class="labelSmall">Number:</label>
+        <input type="text" name="number">
 
       </div>
 
       <div id="center-button">
         <button>Reserve my package!</button></div>
-      </form>
+
     </fieldset>
   </div>
 
