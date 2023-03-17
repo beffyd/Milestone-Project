@@ -236,7 +236,7 @@ button {
   .nav-link,
   .navbar-toggler {
     background-color: #212529;
-    width: 70px;
+    width: 55%;
     float: right;
   }
 
