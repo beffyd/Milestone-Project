@@ -1,27 +1,52 @@
 # Rose's Flower Shop
 
+The Rose's Flower Shop website is designed to be a responsive website that allows visitors to view it on a range of devices
 
-## What the project does and its value to users:
+https://beffyd.github.io/Milestone-Project/
 
-The project is intended to allow customers of Rose's Flower Shop to reserve arrangements of flowers that they want for events. This allows the workers at Rose's Flower Shop to see if the flowers are in season, when they can be ordered and when the package can be finished for the customer. 
+[add images from https://ui.dev/amiresponsive once pathing is fixed for GitHub pages]
 
-The value it provides for the customer is it allows them to choose from packages easily and be contacted by the shop to finalise collection. The project also allows the customer to find the shop on a map or contact the shop by phone or email. 
+## Initial discussion:
 
-## User Stories
+Rose's Flower Shop is a business that provides customers with high-quality flower arrangements for various events. They need a website to allow customers to reserve their flower arrangements and pay upon collection at the shop. 
 
-"Initial testing of the website revealed a very well-built, easy-to-use website. I found the UI intuitive and easy to navigate, and the prices aren't so bad either! The pages are nicely laid out, the colour scheme is great and the design is really clean. 10/10." - Jordan 
+Essential information for the site: 
+- Company History
+- Packages available 
+- Location of store 
 
-"I found the website easy to use and navigate, even without my glasses as the text and icons were very clear! I often get a bit lost looking for shops I've never been toom, I would definitely use the map if I were out on the highstreet looking for the store" - Hilary
+## User stories: 
 
-"As someone that loves to shop online but hates being overwhelmed by lists, prices and descriptions I really appreciate the simple design of the website. A lot of the time I just want to make a quick decision and leave the site, Rose's flower shop allows me to do that without too much visual noise" - Joe
+Client goals:
+- To be able to view the site on a range of devices
+- To make it easy for people to find the store on google maps
+- To make it easy for users to select and reserve their desired flower arrangement 
+- To allow users to find Rose's Flower Shop on social media platforms
 
+First-time visitor goals:
+- I want to find out the different price ranges available to me 
+- I want to be able to navigate the site easily on mobile or desktop 
+- I want to be able to find the shop on social media
+
+Returning visitor goals:
+- I want to see what flower arrangments are available to me depending on the season
+- I want to be able to contact the shop via email or telephone to answer any questions I may have.
+
+Frequent Visitor goals:
+- I want to be able to reserve my packages with ease in time for my event.
+
+# Design 
+
+(https://imgur.com/a/vcR9eNq)
 
 ## Thanks to:
-The Code Institute and London South Bank University for providing a fully funded course available to myself. 
+The Code Institute and London South Bank University for providing a fully funded course available to me. 
 
 Thanks to my brother Joe who knows how to code.
 
-Thanks to Tom from MySpace for encouraging me write my first piece of code.
+Thanks to Tom from MySpace for encouraging me to write my first code.
+
+Thanks to my mentor Jubril Akolade.
 
 
 ## Technologies used:
@@ -34,12 +59,11 @@ GITHUB
 
 BOOTSTRAP 
 
-FONTAWESOME 
+FONT AWESOME 
 
 GOOGLE FONTS 
 
-
-## Acknowledgements:
+## Acknowledgments:
 
 bootstrap navbar
 
