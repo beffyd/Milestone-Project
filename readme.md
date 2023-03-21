@@ -71,7 +71,7 @@ On these pages the features are:
 
 **The home page (Index page)**
 
-The home page for Rose's Flower shop on desktop shows a slide show of the shop's best work, on mobile, it has one still image of a flower arrangement. Underneath the picture/slideshow, it has a paragraph on the company's history since it was established.
+The home page for Rose's Flower shop on the desktop shows a slide show of the shop's best work, on mobile, it has one still image of a flower arrangement. Underneath the picture/slideshow, it has a paragraph on the company's history since it was established.
 
 **Birthdays Page**
 
@@ -162,16 +162,15 @@ Thanks to Tom from MySpace for encouraging me to write my first code.
 Thanks to my mentor Jubril Akolade.
 
 
-## Code tested on W3C:
+# Testing
 
-results for all pages:
+## Automated testing 
 
 https://imgur.com/a/ZW2LPfn
 
 please note, all checks passed aside from 2 errors on the birthday-packages page and wedding-packages page "end div tag seen but there were open elements" and "unclosed form element" however could not remove without breaking the page.
 
-
-## MANUAL TESTING
+## Manual Testing
 
 ### Testing User Stories
 
@@ -196,13 +195,43 @@ please note, all checks passed aside from 2 errors on the birthday-packages page
 | :--- | :--- |
 | I want to be able to reserve my packages with ease in time for my event. | The user can reserve their desired flower arrangement by selecting the relevant radio button and submitting the form|
 
+## Full testing
 
+**PC:**
+Windows 10 PC with an Acer KG271 monitor (24inches) 
 
-## Bugs fixed
+**Mobile devices:**
+- iPhone SE
+- iPhone XR
+- iPhone 12 Pro 
+- Pixel 5
+- Samsung galaxy s8
+- Samsung galaxy s20 Ultra
+
+**Tablet:**
+- iPad air
+- iPad mini 
+
+Each device tested the site using:
+ - Google Chrome 
+ - Mozilla Firefox
+ - Internet Explorer 
+
+ | Feature | Expected Outcome | Testing Performed | Result | Pass/Fail |
+| --- | --- | --- | --- | --- |
+| The sites title | Link directs user back to homepage | Clicked title | Homepage reloads | Pass |
+| Social media icons/links | Icons open in new tab when taking user to site | Clicked icon(s)| New tab opens relevant social media page | Pass |
+| Radio buttons on form| Radio buttons should only allow one choice | Clicked on the different options available | Radio button switches to last package selected | Pass |
+| Reservation form button | ? when pressed | | | 
+
+## Solved fixed
 
 Navbar kept aligning left next to the logo. Fixed by adding the "justify-content-end" attribute to the navbar.
+
 Navbar was not optimised on mobile or tablet. Fixed by targeting the navbar toggler and changing the width in chrome developer tools, then applying the rule to CSS.  
+
 The Navbar position was moving down on tablets (devices over 509px). Fixed by adding a media query for screens with a minimum width of 509px. 
+
 Slideshow syntax error, removed "-web kit-" prefix from animation and keyframes CSS.
 
 ## Version Control: 
