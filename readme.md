@@ -37,17 +37,60 @@ Frequent Visitor goals:
 
 # Design 
 
-(https://imgur.com/a/vcR9eNq)
+[add colour palette image]
 
-## Thanks to:
-The Code Institute and London South Bank University for providing a fully funded course available to me. 
+I have used the colours shown in the colour palette here as I think they have a nice fresh energy to them and in a sense represent springtime, which is obviously when most flowers come into bloom. 
 
-Thanks to my brother Joe who knows how to code.
+## Typography
 
-Thanks to Tom from MySpace for encouraging me to write my first code.
+The font "Merriweather" is used on the index page for the company history paragraph. It is a sans-serif font.
+The font "Playfair Display" is used throughout the site for the prices and also the company logo. It is a sans-serif font. 
 
-Thanks to my mentor Jubril Akolade.
+## Imagery
 
+I will use images of different kinds of flower arrangements across the site to show the variety of packages that are available to customers.
+
+## Wireframes
+
+Wireframes made on Balsamiq can be viewed at: https://imgur.com/a/XHOppk2 
+The site was designed with desktop and mobile in mind and was later optimized to fit tablets also. 
+
+## Screenshot of desktop and mobile view:
+
+Screenshots of the project can be viewed at: https://imgur.com/a/r9IIBvf
+
+# Features
+
+The website is comprised of a home page, 2 pages of flower arrangements for different occasions, and a contact page. 
+
+On these pages the features are: 
+- a navigation bar
+- social media links that are accessible by clicking the relevant icons 
+- a form that allows the user to choose a package with a radio button
+- a map to find the store in person/ to collect the reserved package 
+
+**The home page (Index page)**
+
+The home page for Rose's Flower shop on desktop shows a slide show of the shop's best work, on mobile, it has one still image of a flower arrangement. Underneath the picture/slideshow, it has a paragraph on the company's history since it was established.
+
+**Birthdays Page**
+
+The Birthdays page allows users to browse a selection (3) of flower arrangements and select one to reserve with a form. 
+
+**Weddings Page**
+
+The Weddigss page allows users to browse a selection (6) of flower arrangements and select one to reserve with a form. 
+
+**Contact**
+
+The contact page shows a map of the shop and also has a telephone number and email address for the customer. 
+
+## Accessibility
+
+I have been mindful whilst coding to ensure the website is accessible. This has been achieved by:
+- Using semantic HTML
+- Using sans-serif fonts for the site (These are easy-to-read fonts for people with dyslexia and learning difficulties)
+- Adding alt text to images for users that are using a screen reader
 
 ## Technologies used:
 
@@ -63,6 +106,36 @@ FONT AWESOME
 
 GOOGLE FONTS 
 
+## Deployment
+
+The site is deployed using GitHub Pages 
+
+**To Deploy the site using GitHub Pages:**
+
+Login (or signup) to Github.
+Go to the repository for this project, https://beffyd.github.io/Milestone-Project/.
+Click the settings button.
+Select pages in the left-hand navigation menu.
+From the source dropdown select the main branch and press save.
+The site has now been deployed, please note that this process may take a few minutes before the site goes live.
+Local Development
+
+**How to Fork**
+To fork the repository:
+
+Log in (or sign up) to Github.
+Go to the repository for this project, beffyd.github.io/Milestone-Project/
+Click the Fork button in the top right corner.
+How to Clone
+
+**To clone the repository:**
+Log in (or sign up) to GitHub.
+Go to the repository for this project, beffyd.github.io/Milestone-Project/
+Click on the code button, select whether you would like to clone with HTTPS, SSH or GitHub CLI and copy the link shown.
+Open the terminal in your code editor and change the current working directory to the location you want to use for the cloned directory.
+Type 'git clone' into the terminal and then paste the link you copied in step 3. Press enter.
+
+
 ## Acknowledgments:
 
 bootstrap navbar
@@ -71,28 +144,23 @@ font awesome icons (socials in the footer and contact)
 
 unsplash for free images used in packages
 
-htmlcolorcodes.com for hex and rgba colour values
+htmlcolorcodes.com for hex and RGB colour values
 
-@gradar on codepen.io for their html and css slide show code I used on the index.html page (https://codepen.io/gradar/pen/BaavLLo)
+@gradar on codepen.io for their HTML and CSS slide show code I used on the index.html page (https://codepen.io/gradar/pen/BaavLLo)
 
-getbootstrap.com documentation on display:flex 
+getbootstrap.com documentation on display: flex 
 
-googles embedded iframe html used for the map on contact page
+Google embedded iframe HTML used for the map on the contact page
 
+## Thanks to:
+The Code Institute and London South Bank University for providing a fully funded course available to me. 
 
+Thanks to my brother Joe who knows how to code.
 
-## Screenshot of desktop and mobile view:
+Thanks to Tom from MySpace for encouraging me to write my first code.
 
-Screen shots of the project can be viewed at: https://imgur.com/a/r9IIBvf
- 
+Thanks to my mentor Jubril Akolade.
 
-## Wire frames:
-
-Wire frames made on Balsamiq can be viewed at: https://imgur.com/a/XHOppk2 
-
-## Design
-Colour Scheme
-The main colours used are light pink, purple and black.
 
 ## Code tested on W3C:
 
@@ -100,14 +168,42 @@ results for all pages:
 
 https://imgur.com/a/ZW2LPfn
 
-please note, all checks passed aside from  2errors on birthday_packages page and weddings packages page "end div tag seen but there were open elements" and "unclosed form element" however could absolutely not remove without breaking the page.
+please note, all checks passed aside from 2 errors on the birthday-packages page and wedding-packages page "end div tag seen but there were open elements" and "unclosed form element" however could not remove without breaking the page.
 
 
-## Bugs fixed:
+## MANUAL TESTING
 
-Navbar kept aligning left next to logo. fixed by adding "justify-content-end" attribute to navbar.
+### Testing User Stories
 
-Slideshow syntax error, removed "-webkit-" prefix from animation and keyframes CSS.
+`First Time Visitors`
+
+| Goals | How are they achieved? |
+| :--- | :--- |
+| I want to find out the different price ranges available to me. | The user can click on the 'birthdays' or 'weddings' page in the top right on the navbar |
+| I want to be able to navigate the site easily on mobile or desktop | The user can view the site on either mobile, desktop or tablet and the site will adjust to fit screen size|
+| I want to be able to find the shop on social media| The user can see there are social media links on all pages in the footer, also the user is asked to follow on instagram on the home page |
+
+`Returning Visitors`
+
+|  Goals | How are they achieved? |
+| :--- | :--- |
+| I want to see what flower arrangments are available to me depending on the season | The user will be shown the available flowers by images on 'Wedding' & 'Birthdays' page|
+| I want to be able to contact the shop via email or telephone to answer any questions I may have.| The user can find contact details on the 'contact' page |
+
+`Frequent Visitors`
+
+| Goals | How are they achieved? |
+| :--- | :--- |
+| I want to be able to reserve my packages with ease in time for my event. | The user can reserve their desired flower arrangement by selecting the relevant radio button and submitting the form|
+
+
+
+## Bugs fixed
+
+Navbar kept aligning left next to the logo. Fixed by adding the "justify-content-end" attribute to the navbar.
+Navbar was not optimised on mobile or tablet. Fixed by targeting the navbar toggler and changing the width in chrome developer tools, then applying the rule to CSS.  
+The Navbar position was moving down on tablets (devices over 509px). Fixed by adding a media query for screens with a minimum width of 509px. 
+Slideshow syntax error, removed "-web kit-" prefix from animation and keyframes CSS.
 
 ## Version Control: 
 Git & GitHub 
