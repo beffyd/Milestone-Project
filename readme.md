@@ -222,7 +222,7 @@ Each device tested the site using:
 | The sites title | Link directs user back to homepage | Clicked title | Homepage reloads | Pass |
 | Social media icons/links | Icons open in new tab when taking user to site | Clicked icon(s)| New tab opens relevant social media page | Pass |
 | Radio buttons on form| Radio buttons should only allow one choice | Clicked on the different options available | Radio button switches to last package selected | Pass |
-| Reservation form button | ? when pressed | | | 
+| Reservation form button | Form submitted  | Information filled out and "Reserve my package" buttonn pressed | opens a new tab which loads https://formdump.codeinstitute.net/| pass
 
 ## Solved Bugs
 
