@@ -224,7 +224,7 @@ Each device tested the site using:
 | Radio buttons on form| Radio buttons should only allow one choice | Clicked on the different options available | Radio button switches to last package selected | Pass |
 | Reservation form button | ? when pressed | | | 
 
-## Solved fixed
+## Solved Bugs
 
 Navbar kept aligning left next to the logo. Fixed by adding the "justify-content-end" attribute to the navbar.
 
