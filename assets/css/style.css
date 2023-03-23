@@ -52,6 +52,15 @@ label {
   padding: 2em;
 }
 
+.nav-link:active {
+  color: #7839a6;
+
+}
+
+.nav-link:hover {
+  color: #7839a6;
+  
+}
 
 /* ----------CONTAINERS-------- */
 
@@ -215,6 +224,7 @@ button {
   #package-one-m {
     display: none;
   }
+
 }
 
 @media screen and (max-width: 991px) {
@@ -230,7 +240,7 @@ button {
   }
 
   .nav-link {
-    font-size: smaller;
+    font-size: 1em;
     text-align: center;
     padding: 2.5%;
   }
@@ -302,11 +312,12 @@ button {
   }
 
   .nav-link {
-    font-size: 1.5em;
+    font-size: 1.2em;
     text-align: center;
     padding: 2.5%;
   }
 }
+
 
 /*---------------------------BDAYPACKAGES------------------*/
 
