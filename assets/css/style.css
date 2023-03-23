@@ -52,6 +52,7 @@ label {
   padding: 2em;
 }
 
+
 /* ----------CONTAINERS-------- */
 
 .d-flex {
@@ -231,6 +232,7 @@ button {
   .nav-link {
     font-size: smaller;
     text-align: center;
+    padding: 2.5%;
   }
 
   .navbar-toggler {
@@ -284,6 +286,12 @@ button {
     font-size: 100%;
     text-align: center;
   }
+
+  .nav-link {
+    font-size: smaller;
+    text-align: center;
+    padding: 2.5%;
+  }
 }
 
 @media screen and (min-width: 509px) {
@@ -291,6 +299,12 @@ button {
     position: absolute;
     top: 5px;
     width: 15%;
+  }
+
+  .nav-link {
+    font-size: 1.5em;
+    text-align: center;
+    padding: 2.5%;
   }
 }
 
