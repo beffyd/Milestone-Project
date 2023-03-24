@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,300&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
 
 /*--------------Navbar*/
 
@@ -183,6 +184,30 @@ fieldset p {
 button {
   color: #7839a6;
   font-style: italic;
+}
+
+#package-one-wed {
+  text-align: center;
+}
+
+#package-two-wed {
+  text-align: center;
+}
+
+#package-three-wed {
+  text-align: center;
+}
+
+#package-four-wed {
+  text-align: center;
+}
+
+#package-five-wed {
+  text-align: center;
+}
+
+#package-six-wed {
+  text-align: center;
 }
 
 /*--------------Contact Page------------*/
