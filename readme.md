@@ -37,7 +37,7 @@ Frequent Visitor goals:
 
 # Design 
 
-[add colour palette image]
+![colour-palete](/docs/colour-palete.png)
 
 I have used the colours shown in the colour palette here as I think they have a nice fresh energy to them and in a sense represent springtime, which is obviously when most flowers come into bloom. 
 
@@ -222,7 +222,7 @@ Each device tested the site using:
 | The sites title | Link directs user back to homepage | Clicked title | Homepage reloads | Pass |
 | Social media icons/links | Icons open in new tab when taking user to site | Clicked icon(s)| New tab opens relevant social media page | Pass |
 | Radio buttons on form| Radio buttons should only allow one choice | Clicked on the different options available | Radio button switches to last package selected | Pass |
-| Reservation form button | Form submitted  | Information filled out and "Reserve my package" buttonn pressed | opens a new tab which loads https://formdump.codeinstitute.net/| pass
+| Reservation form button | Form submitted  | Information filled out and "Reserve my package" buttonn pressed | opens a new tab which loads https://formdump.codeinstitute.net/| \Pass
 
 ## Solved Bugs
 
