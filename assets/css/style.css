@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,300&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
 
 /*--------------Navbar*/
 
@@ -334,6 +334,8 @@ button {
     text-align: center;
     padding: 2.5%;
   }
+
+
 }
 
 /*---------------------------BDAYPACKAGES------------------*/
@@ -407,7 +409,6 @@ h1 {
 
 #socials {
   text-align: center;
-   
 }
 
 #socials a {

@@ -227,7 +227,7 @@ To Tom from MySpace for encouraging me to write my first code.
 
 # Testing
 
-# Automated testing 
+## Automated testing 
 
 ## WC3 Code Validator
 

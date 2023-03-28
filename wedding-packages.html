@@ -47,7 +47,7 @@
       </ul>
     </div>
   </nav>
-<!-- WEDDING PACKAGES/RESERVE FORM -->
+<!-- WEDDING PACKAGES -->
   <section id="wedding-packages">
     <h2>Wedding Packages</h2>
 
@@ -55,7 +55,7 @@
       <div class="item">
 
         <img class="package" src="assets/images/weddingflowers1.jpg" alt="red-and-pink-roses">
-        <form  method="post" target="_blank" action="https://formdump.codeinstitute.net">
+        
         <div id="package-one-wed">
           <input type="radio" id="wedpackage1" name="wedding_packages" value="wedpackage1"><label
             for="wedpackage1">Package 1 £69.99</label>
@@ -117,8 +117,13 @@
     </div>
 </section>
 
-  <div class="form-container">
-    <fieldset>
+<div class="form-container">
+  <fieldset>
+    <form
+      method="post"
+      target="_blank"
+      action="https://formdump.codeinstitute.net"
+    >
       <div class="name" id="customer-name">
         <label class="labelSmall">Name:</label>
         <input type="text" name="name">
@@ -132,14 +137,14 @@
       <div class="number" id="customer-number">
         <label class="labelSmall">Number:</label>
         <input type="text" name="number">
-
       </div>
-
+      <input type="hidden" name="selectedRadioValue">
       <div id="center-button">
-        <button>Reserve my package!</button></div>
-      </form>
-    </fieldset>
-  </div>
+        <button>Reserve my package!</button>
+      </div>
+    </form>
+  </fieldset>
+</div>
 <!-- FOOTER SOCIALS  -->
   <footer>
     <div id="socials">
