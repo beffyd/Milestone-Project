@@ -1,10 +1,10 @@
 # Rose's Flower Shop
 
-The Rose's Flower Shop website is designed to be a responsive website that allows visitors to view it on a range of devices.
+The Rose's Flower Shop website is designed to be a responsive website that allows visitors to view it on a range of devices with ease, whilst browsing products.
 
 ![am-i-resposive](/docs/amiresponsive.png)
 
-https://beffyd.github.io/Milestone-Project/
+[It can be viewed here!](https://beffyd.github.io/Milestone-Project/)
 
 ## Contents
 
@@ -231,9 +231,14 @@ To Tom from MySpace for encouraging me to write my first code.
 
 ## WC3 Code Validator
 
-https://imgur.com/a/ZW2LPfn
+All pages passed validation on the W3C website(s) 
+https://validator.w3.org/ & https://jigsaw.w3.org/css-validator/
 
-please note, all checks passed aside from 2 errors on the birthday-packages page and wedding-packages page "end div tag seen but there were open elements" and "unclosed form element" however could not remove without breaking the page.
+* [Home Page](/docs/index-page-w3c.png)
+* [Wedding Packages Page](/docs/wedding-page-w3c.png)
+* [Birthday Packages Page](/docs/birthday-page-w3c.png)
+* [Contact Page](/docs/contact-page-w3c.png)
+* [CSS](/docs/css-w3c.png)
 
 ## Manual Testing
 
