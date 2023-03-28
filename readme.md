@@ -308,7 +308,7 @@ Slideshow syntax error, removed "-web kit-" prefix from animation and keyframes 
 
 ## Deployment bugs
 
-- File pathing had to be changed from gitpods file pathing to fit githubs. (fixed by adding Milestone-Project/ before file paths)
+- File pathing had to be changed from gitpods file pathing to fit githubs. (fixed by taking away / at start of filepath)
 - When submitting form the page formdump.codeinstitute.net does not open, my mentor says this must be  an issue with Code Institutes servers.
 
 ## Version Control: 
