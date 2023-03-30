@@ -289,12 +289,12 @@ Each device tested the site using:
 
  | Feature | Expected Outcome | Testing Performed | Result | Pass/Fail |
 | --- | --- | --- | --- | --- |
-| The sites title | Link directs user back to homepage | Clicked title | Homepage reloads | Pass |
-| Social media icons/links | Icons open in new tab when taking user to site | Clicked icon(s)| New tab opens relevant social media page | Pass |
-| Radio buttons on form| Radio buttons should only allow one choice | Clicked on the different options available | Radio button switches to last package selected | Pass |
-| Reservation form button | Form submitted  | Information filled out and "Reserve my package" button pressed | opens a new tab which loads https://formdump.codeinstitute.net/| Pass|
-| Navigation links change colour when hovering over them | Link turns purple when hovered over | Hovered over navigation link with mouse/tapped withy finger | Navigation link turns purple | Pass |
-|Navigation link for the page user is on stays white to indicate which page is active | Navlink in navbar turns white| clicked each navigation link and loaded page | Navigation link stays white when page is active |Pass|
+| [The sites title](/docs/site-title-feature.png) | Link directs user back to homepage | Clicked title | Homepage reloads | Pass |
+| [Social media icons/links](/docs/social-media-icons-feature.png) | Icons open in new tab when taking user to site | Clicked icon(s)| New tab opens relevant social media page | Pass |
+| [Radio buttons on form](/docs/radio-buttons-feature.png)| Radio buttons should only allow one choice | Clicked on the different options available | Radio button switches to last package selected | Pass |
+| [Reservation form button](/docs/form-feature.png) | Form submitted  | Information filled out and "Reserve my package" button pressed | opens a new tab which loads https://formdump.codeinstitute.net/| Pass|
+| [Navigation links change colour when hovering over them](/docs/purple-hover-feature.png) | Link turns purple when hovered over | Hovered over navigation link with mouse/tapped withy finger | Navigation link turns purple | Pass |
+|[Navigation link stays white to indicate which page is active](/docs/white-active-class-feature.png) | Navlink in navbar turns white| clicked each navigation link and loaded page | Navigation link stays white when page is active |Pass|
 
 ## Solved Bugs
 
@@ -309,7 +309,8 @@ Slideshow syntax error, removed "-web kit-" prefix from animation and keyframes 
 ## Deployment bugs
 
 - File pathing had to be changed from gitpods file pathing to fit githubs. (fixed by taking away / at start of filepath)
-- When submitting form the page formdump.codeinstitute.net does not open, my mentor says this must be  an issue with Code Institutes servers.
+- When submitting the form the page formdump.codeinstitute.net does not open, my mentor says this must be an issue with Code Institute's servers.
+- On the 'Wedding Package's' page the radio buttons allow you to pick more than one option, however, when opening the website on a live server in an editor the radio buttons function correctly, I have triple checked the radio buttons groups are the same to avoid this which leads me to believe this must be a bug. 
 
 ## Version Control: 
 Git & GitHub 
